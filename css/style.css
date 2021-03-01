@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#navbar{
+    padding: 22px 12px;
+    font-family:  'Akaya Telivigala', cursive;
+    background-color: black;
+    color: white;
+}
+#navbar ul{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#navbar li a{
+    text-decoration: none;
+    padding: 23px;
+    font-size: 1.6rem;
+    color: white;
+    
+}
+#navbar li{
+    list-style: none;
+    margin:2px 30px;
+}
+#introSection{
+    height: 900px;
+    background: url('../img/bg.jpg') no-repeat center center/cover ;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    /* font-size: 2rem; */
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    padding-bottom: 400px;
+    font-size: 3rem;
+}
+#footer{
+    height: 100px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+#about{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: black;
+    padding: 38px;
+    color: white    ;
+    text-align: center;
+}
+#about h1{
+    text-align: center;
+    color: white;
+}
+#about p{
+    font-size: 1.5rem;
+    margin: 15px;
+}
+#description{
+    display: flex;
+    
+    flex-wrap: wrap;
+    /* justify-content: space-around; */
+    flex-basis: 100px;
+    text-align: center;
+}
+.dance{
+    border: 2px solid black;
+    width:30%;
+    margin:10px 10px;
+    padding: 6px 8px;
+    height: 300px;
+    color: white;
+    text-align: center;
+    
+}
+#salsa{
+    opacity: 0.8;
+    background: url('../img/salsa.jpg') center center/cover;
+    height: 300px;
+    
+}
+#hiphop{
+    opacity: 0.8;
+    background: url('../img/hiphop.jpg') center center/cover;
+    height: 300px;
+    
+}
+#contem{
+    height: 300px;
+    opacity: 0.8;
+background:  url('../img/contem.jpg') center center/cover;
+}
+
+@media screen and (max-width:500px){
+ #navbar ul{
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+ } 
+ #description{
+     flex-direction: column;
+  
+ }  
+ #description p{
+     font-size: 1rem;
+     text-align: center;
+ }
+ .image{
+      width:160px;
+     margin: auto;
+     margin-right: 0px;
+     display: block; 
+ }
+}
+@media screen and (max-width:700px) and (min-width:501px){
+    #navbar ul{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    } 
+    #description{
+        flex-direction: column;
+        /* justify-content: center;
+        align-items: center; */
+    }  
+    #description p{
+        font-size: 1rem;
+        text-align: center;
+    }
+    .image{
+        width:360px;
+       margin: auto;
+       margin-right: 0px;
+       display: block; 
+   }
+}
+footer{
+    background: black;
+    color:white
+}
+footer p{
+    font-family: 'Times New Roman', Times, serif;
+    /* margin: 13px 0px; */
+    font-size: 1.5rem;
+    text-align: center;
+}
+#contact_us{
+    text-align: center;
+    height:400px;
+    background: black;
+    color: white;
+}
+.myForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-basis: 400px;
+}
+.myForm input{
+  /* background-color: red; */
+  text-align: center;
+  width:40%; 
+  margin: 20px 5px;
+  padding: 4px;
+  border: 2px solid black;
+  border-radius: 4px;
+}
+.btn{
+    padding: 5px;
+    margin: 5px;
+    width:20%;
+    border-radius: 10px;
+    border: 4px solid grey;
+}
